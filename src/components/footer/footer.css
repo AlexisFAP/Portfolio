@@ -1,0 +1,7 @@
+.aux{
+    color: black;
+    font-size: 3rem;
+    background-color: var(--second-color);
+    width: fit-content;
+    margin: 0 auto;
+}

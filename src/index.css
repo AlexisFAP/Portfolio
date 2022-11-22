@@ -1,0 +1,12 @@
+:root{
+    --main-color: #274C77;
+    --second-color: #6096BA;
+    --bg-color: #E7ECEF;
+    --text-color: #8B8C89;
+    --main-font: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+    margin: 0;
+}

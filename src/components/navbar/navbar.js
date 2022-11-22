@@ -5,8 +5,11 @@ import './navbar.css'
 
 function NavBar() {
     return (
-    <nav>
+    <nav className="navbar">
         <Link className="nav-link" to="/">Home</Link>
+        <Link className="nav-link" to="/projects">Projects</Link>
+        <Link className="nav-link" to="/about-me">About me</Link>
+        <Link className="nav-link" to="/contact">Contact</Link>
     </nav>
     )
 }
