@@ -21,8 +21,8 @@ function App() {
           <Route exact path='/about-me' element={<About/>} />
           <Route exact path='/contact' element={<Contact/>} />
         </Routes>
+        <Footer/>
       </Router>
-      <Footer/>
     </div>
   );
 }

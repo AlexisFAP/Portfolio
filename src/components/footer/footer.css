@@ -1,7 +1,35 @@
-.aux{
+.footer{
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container{
+    font-family: var(--second-font);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-content{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.footer-link{
+    font-family: var(--second-font);
     color: black;
-    font-size: 3rem;
-    background-color: var(--second-color);
-    width: fit-content;
-    margin: 0 auto;
+    text-decoration: none;
+    padding: 4px;
+    display: flex;
+}
+
+.footer-link:hover{
+    color: var(--bg-color);
 }

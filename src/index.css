@@ -1,9 +1,11 @@
 :root{
     --main-color: #274C77;
     --second-color: #6096BA;
+    --third-color: #A3CEF1;
     --bg-color: #E7ECEF;
     --text-color: #8B8C89;
-    --main-font: 'Montserrat', sans-serif;
+    --main-font: 'Inconsolata', monospace;
+    --second-font: 'Josefin Sans', sans-serif;
 }
 
 body{

@@ -1,6 +1,6 @@
 .navbar{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     background-color: var(--main-color);
     padding: 0;
@@ -9,12 +9,12 @@
 
 .nav-link{
     margin: 8px;
-    font-family: var(--main-font);
-    color: var(--text-color);
+    font-family: var(--second-font);
+    font-size: 1.25rem;
+    color: black;
     font-weight: 900;
     padding: 8px;
     border-radius: 12px;
-    
     text-decoration: none;
 }
 
