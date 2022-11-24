@@ -5,9 +5,13 @@ import './home.css'
 
 function Home() {
     return(
-        <div>
-            <h1 className="title">HOME</h1>
-            <h1 className="title">Portfolio - Alexis Patiño</h1>
+        <div className="card">
+            <div className="card-title">HOME</div>
+            <div className="card-text">Portfolio - Alexis Patiño</div>
+            <div className="card-text">This page was created by me (Alexis Patiño Agudelo) and it is so that people 
+            can see my skills and projects that carried out.
+        </div>
+            <img className="card-img" src="./profile.jpg" alt="profile" />
         </div>
     )
 }
