@@ -2,19 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('/public/home.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     font-family: var(--main-font);
+    font-weight: 900;
 }
 
 .card-title{
     display: flex;
+    font-size: 1.5rem;
+    padding: 8px;
 }
 
 .card-text{
     display: flex;
+    font-size: 1.2rem;
+    padding: 8px;
 }
 
 .card-img{
-    width: 150px;
     height: 150px;
     border-radius: 50%;
 }

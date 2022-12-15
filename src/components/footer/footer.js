@@ -39,8 +39,8 @@ function Footer() {
             </div>
             <hr></hr>
             <div className="container-row">
-                <a href="https://www.linkedin.com/in/alexis-patiño-agudelo-5a74791b9" target="_blank"><i class="bi bi-linkedin"></i></a>
-                <a href="https://github.com/AlexisFAP" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/alexis-patiño-agudelo-5a74791b9" target="_blank"><i className="bi bi-linkedin"></i></a>
+                <a href="https://github.com/AlexisFAP" target="_blank"><i className="bi bi-github"></i></a>
             </div>
         </div>
     </footer>
