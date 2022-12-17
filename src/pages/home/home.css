@@ -1,28 +1,43 @@
 .card{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     background-image: url('/public/home.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    height: 500px;
     font-family: var(--main-font);
     font-weight: 900;
 }
 
+.card-container{
+    display: flex;
+    flex-direction: column;  
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    margin: 12px;
+    padding: 8px;
+}
+
 .card-title{
     display: flex;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color: var(--second-color);
+    align-self: center;
     padding: 8px;
 }
 
 .card-text{
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    align-self: center;
     padding: 8px;
 }
 
 .card-img{
-    height: 150px;
+    height: 200px;
     border-radius: 50%;
 }
