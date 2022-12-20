@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url('/public/home.jpg');
+    background-image: url('/public/images/home.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
